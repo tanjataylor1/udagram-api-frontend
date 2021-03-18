@@ -6,6 +6,8 @@ cache:
     - node_modules
 install:
   - npm i -g typescript
+  - npm i -g @ionic/cli
+  - npm i -g @angular/cli
   - npm i
 script:
   - npm run build
